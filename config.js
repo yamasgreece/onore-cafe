@@ -3,7 +3,7 @@
    deliveryFee: χρέωση delivery σε € (0 = δωρεάν)
    minOrder: ελάχιστη παραγγελία σε € (0 = χωρίς ελάχιστο) */
 window.CONFIG = {
-  whatsapp: "30XXXXXXXXXX",   // <-- ΒΑΛΕ ΕΔΩ τον αριθμό WhatsApp του Onore
+  whatsapp: "306942925783",   // <-- ΒΑΛΕ ΕΔΩ τον αριθμό WhatsApp του Onore
   deliveryFee: 0,
   minOrder: 0
 };

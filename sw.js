@@ -1,6 +1,6 @@
 /* Onore Cafe — minimal offline cache */
-const CACHE = 'onore-v1';
-const ASSETS = ['./','index.html','menu.js','config.js','manifest.webmanifest',
+const CACHE = 'onore-v2';
+const ASSETS = ['./','index.html','menu.js','config.js','manifest.webmanifest','assets/logo-white.png',
   'icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png','icons/favicon-64.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(()=>self.skipWaiting()));
